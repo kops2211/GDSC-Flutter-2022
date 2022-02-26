@@ -1,4 +1,5 @@
 # GDSC-Flutter-2022
+DAILY TASK 2
 Q1)
 i)   int multiply(int a, int b) => a * b; 
 ii)  Async functions 
