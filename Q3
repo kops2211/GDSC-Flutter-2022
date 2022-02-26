@@ -1,0 +1,18 @@
+void main() {
+  // Map of birthdays of people
+  Map<String, Object> birthdays = {
+    "Kopal Sahni": "22/11/2002",
+    "Diya Singh": "02/02/2003",
+  };
+
+  print("\nHello there!. We know the birthdays of the following people: \n");
+
+  birthdays.forEach((key, value) {
+    print(key);
+  });
+
+  stdout.write("\nWho's birthday do you want to know? ");
+  String choice = stdin.readLineSync();
+
+  print("\n$choice's birthday is ${birthdays[choice]}\n");
+}
